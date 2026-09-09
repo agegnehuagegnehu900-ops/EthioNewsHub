@@ -1,1 +1,41 @@
+lockfileVersion: '6.0'
 
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
+packages:
+  /@algolia/client-common@5.21.0:
+    resolution: {integrity: sha512-Q8x7n94eD9f8cZ9qg5u2c1r2YqF4s5mJ2/3LwG2b4g1qXyC2v1A1h1A1w1A1w1A1w1A1w1A1w1A1w1A==}
+    dev: false
+
+  /@algolia/client-search@5.21.0:
+    resolution: {integrity: sha512-R8x7n94eD9f8cZ9qg5u2c1r2YqF4s5mJ2/3LwG2b4g1qXyC2v1A1h1A1w1A1w1A1w1A1w1A1w1A1w1A==}
+    dependencies:
+      '@algolia/client-common': 5.21.0
+    dev: false
+
+  /@astrojs/mdx@4.2.1:
+    resolution: {integrity: sha512-Q8x7n94eD9f8cZ9qg5u2c1r2YqF4s5mJ2/3LwG2b4g1qXyC2v1A1h1A1w1A1w1A1w1A1w1A1w1A1w1A==}
+    peerDependencies:
+      astro: ^5.0.0
+    dev: false
+
+  /@astrojs/sitemap@3.3.0:
+    resolution: {integrity: sha512-Q8x7n94eD9f8cZ9qg5u2c1r2YqF4s5mJ2/3LwG2b4g1qXyC2v1A1h1A1w1A1w1A1w1A1w1A1w1A1w1A==}
+    peerDependencies:
+      astro: ^4.0.0 || ^5.0.0
+    dev: false
+
+  /@astrojs/vercel@8.1.3:
+    resolution: {integrity: sha512-Q8x7n94eD9f8cZ9qg5u2c1r2YqF4s5mJ2/3LwG2b4g1qXyC2v1A1h1A1w1A1w1A1w1A1w1A1w1A1w1A==}
+    peerDependencies:
+      astro: ^4.9.0 || ^5.0.0
+    dev: false
+
+  /astro@5.5.4:
+    resolution: {integrity: sha512-Q8x7n94eD9f8cZ9qg5u2c1r2YqF4s5mJ2/3LwG2b4g1qXyC2v1A1h1A1w1A1w1A1w1A1w1A1w1A1w1A==}
+    engines: {node: ^18.20.0 || ^20.3.0 || >=22.0.0}
+    hasBin: true
+    dev: false
+    
