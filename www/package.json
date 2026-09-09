@@ -16,7 +16,6 @@
   },
   "dependencies": {
     "@algolia/client-search": "^4.21.0",
-    
     "@astrojs/mdx": "^4.2.1",
     "@astrojs/sitemap": "^3.3.0",
     "@astrojs/vercel": "^8.1.3",
