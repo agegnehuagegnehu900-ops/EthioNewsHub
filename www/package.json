@@ -10,7 +10,7 @@
     "clean": "rm -rf .turbo node_modules .astro dist .eslintcache",
     "format": "prettier --write \"**/*.{cjs,mjs,ts,tsx,md,json,astro}\" --gitignore --ignore-unknown --write",
     "format:check": "prettier --check \"**/*.{cjs,mjs,ts,tsx,md,json,astro}\" --gitignore --ignore-unknown --check",
-    "build": "astro build",
+    "build": "astro build --no-frozen-lockfile",
     "preview": "astro preview",
     "astro": "astro"
   },
