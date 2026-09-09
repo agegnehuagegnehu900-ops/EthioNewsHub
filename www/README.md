@@ -1,4 +1,4 @@
-# create-t3-app Documentation Site
+# ethionewshub
 
 Based on the [Astro Starter Kit: Docs Site](https://github.com/withastro/astro/tree/latest/examples/docs). New to Astro?
 
