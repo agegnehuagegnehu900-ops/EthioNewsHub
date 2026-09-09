@@ -8,9 +8,9 @@ import rehypeExternalLinks from "rehype-external-links";
 import rehypeSlug from "rehype-slug";
 import remarkCodeTitles from "remark-code-titles";
 
-/** @link https://astro.build/config */
+// https://astro.build
 export default defineConfig({
-  site: `https://create.t3.gg/`,
+  site: "https://ethionewshub.com",
   output: "server",
   adapter: vercel(),
   markdown: {
@@ -23,7 +23,7 @@ export default defineConfig({
           rel: ["noreferrer noopener"],
           content: {
             type: "text",
-            value: "↗",
+            value: " ↗",
           },
         },
       ],
@@ -32,7 +32,7 @@ export default defineConfig({
         rehypeAutolinkHeadings,
         {
           properties: {
-            class: "heading-link heading-link--hidden---effects",
+            class: "heading-link heading-link--hidden--effects",
             "data-heading-link": true,
           },
           behavior: "wrap",
